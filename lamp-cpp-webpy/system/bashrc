@@ -1,0 +1,13 @@
+#this is called .bashrc and lives at your home dir (~)
+
+#this should be appended
+# PATH env vars
+export PATH=$PATH:/usr/lib/x86_64-linux-gnu
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/lib:/usr/local/lib
+export PYTHONPATH = $PYTHONPATH:
+    /path/to/work/:
+    /path/to/work/myproject/:
+    /path/to/work/myproject/mysite/:
+    /path/to/work/myproject/myproject_back/:
+    /path/to/work/www:
+    /path/to/work/www/mysite/

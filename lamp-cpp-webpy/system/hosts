@@ -1,0 +1,9 @@
+#lives in /etc/hosts
+
+#loopback
+127.0.0.1       localhost    #default
+127.0.1.1       MY_PC        #if your PC has a name
+
+#home subnet
+#192.168.1.2    mysite.com   #ethernet IP
+192.168.1.10    mysite.com   #wifi IP
