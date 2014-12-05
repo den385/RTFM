@@ -1,0 +1,12 @@
+#this is called .bash_aliases and lives at your home dir (~)
+
+#this should be appended
+
+alias wget_oq='wget --timeout=3 -O - -q'
+
+hello()
+{
+  if [ "$1" == "get" ] ; then
+    wget_oq "$2" | cat
+  fi
+}

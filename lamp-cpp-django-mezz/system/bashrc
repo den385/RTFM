@@ -4,7 +4,7 @@
 # PATH env vars
 export PATH=$PATH:/usr/lib/x86_64-linux-gnu
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/lib:/usr/local/lib
-export PYTHONPATH = $PYTHONPATH:\
+export PYTHONPATH = $PYTHONPATH:
 /path/to/work/:\
 /path/to/work/myproject/:\
 /path/to/work/myproject/mysite/:\
