@@ -3,4 +3,4 @@ lamp-cpp-django-mezz
 
 configs for askubuntu article:
 
-http://askubuntu.com/questions/556912/lamp-c-with-django-and-mezzanine/556913#556913
+http://askubuntu.com/questions/554022/how-to-deploy-ubuntu-apache-python-c-mysql/556927#556927
