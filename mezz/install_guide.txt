@@ -47,15 +47,17 @@ DATABASES = {
 
 $ python manage.py collectstatic
 $ python manage.py collecttemplates
-$ python manage.py syncdb
+
+# django <1.7
+#$ python manage.py syncdb
+# django >= 1.7
+$ python manage.py migrate
 
 #############################################################################
-dj/mezz site login: 
- 
-Login = admin (django superuser) 
-Password = masterkey
-#############################################################################
 
+$ python manage.py createsuperuser
+
+#############################################################################
 
 $ python manage.py runserver
 
